@@ -1,65 +1,155 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Calculator by ME</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+<body class="overflow-x-hidden">
+    <div class="container mx-auto ">
+        <header class="heading">
+            <nav class="flex justify-between">
+                <div class="flex logo">GYM<i class='bx bx-dumbbell' style="color: black;"></i></div>
+                <div class="navbar">
+                        <a href="#" style="--i:1">Home</a>
+                        <a href="#" style="--i:2">About</a>
+                        <a href="#" style="--i:3">Services</a>
+                        <a href="#" style="--i:4">Contact Me</a>
+                        <a href="#" style="--i:5"class="btn">Join Now</a>
+                </div>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                <div class="top-left flex flex-col px-2 justify-center">
+                    <div class="text-center">
+                        <img class="dumbelling" src="img/run-removebg-preview.png">
+                    </div>
+                    <h1 class="mx-1 text-center title">Best fittness GYM in the town</h1>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, dicta adipisci! Aperiam nemo nam labore a inventore, provident dolorum ex dicta fugiat temporibus tempora, modi nesciunt quod facere in asperiores.</p>
+                </div>
+                <div class="top-right flex justify-center">
+                    <img class="gym" src="img/exer-removebg-preview.png">
+                </div>
+                </div>
+            </section>
+        
+            <section class="section2">
+                <h1 class="mx-2 text-center sub-title">Pricing</h1>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iusto dolorum asperiores at iure quia vitae nesciunt explicabo deserunt voluptas! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, eius.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box text-center">
+                        <h2>Free</h2>
+                        <ul>
+                            <li class="highlighted">₹0/month</li>
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn1">Signup free</button></li>
+                        </ul>
+                    </div>
+                    <div class="box text-center">
+                        <h2>Pro</h2>
+                        <ul>
+                            <li class="highlighted">₹300/month</li>
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn1">Signup free</button></li>
+                        </ul>
+                    </div>
+                    <div class="box text-center">
+                        <h2>Enterprise</h2>
+                        <ul>
+                            <li class="highlighted">₹500/month</li>
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn1">Signup free</button></li>
+                        </ul>
+                    </div>
 
-<body>
-  <h1 class="text-center font-family">Calculator</h1>
-  <div class="box flex flex-col mx-auto item-center">
-  <div class="container flex flex-col mx-auto item-center">
-    <div class="row">
-      <input class="input" type="text" />
+                </div>
+            </section>
+        
+            <section class="section3">
+                <h1 class="mx-2 text-center compare sub-title">Compare Plans</h1>
+                <div class="table-p flex justify-center">
+                    <div class="plantable"></div>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th class="txt">Free</th>
+                        <th class="txt">Pro</th>
+                        <th class="txt">Enterprise</th>
+                    </tr>
+                    
+                    <tr>
+                        <td class="txt">Public</td>
+                        <td><i class='bx bx-check' style='color:#000'  ></i></td>
+                        <td></td>
+                        <td><i class='bx bx-x' undefined ></i></td>
+                    </tr>
+                    <tr>
+                        <td class="txt">Private</td>
+                        <td><i class='bx bx-check' style='color:#000'  ></i></td>
+                        <td><i class='bx bx-check' style='color:#000'  ></i></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="txt">Permissions</td>
+                        <td></td>
+                        <td><i class='bx bx-check' style='color:#000'  ></i></td>
+                        <td><i class='bx bx-x' undefined ></i></td>
+                      
+                    </tr>
+                    <tr>
+                        <td class="txt">Sharing</td>
+                        <td><i class='bx bx-x' undefined ></i></td>
+                        <td></td>
+                        <td><i class='bx bx-check' style='color: #000'></i></td>
+                        
+                    </tr>
+                </table>
+            </div>
+            </section>
+        </main>
+        
+        <h1 class="sub-title1"> Contact Us</h1>
+        <div class="container3">
+            <div class="contact-form">
+                <form action="">
+                <label for="name">Full Name</label>
+                <input type="name" placeholder="" class="required"><br>
+                <label for="email">Email</label> 
+                <input type="email" placeholder="" class="required"><br>
+                <label for="phone">Phone</label>
+                <input type="phone" placeholder="" class="required"><br>
+                <label for="Location">Location</label>
+                <input type="location" placeholder="" class="required"><br>
+                <label for="msg" >How did you hear about us?(optional)</label>
+                <select name="msg" id="msg">
+                    <option value="">Select option<option value=""></option></option>
+                    <option value="social_media">Social Media</option>
+                    <option value="frnd">Friend or Family</option>
+                    <option value="others">Other Advertisements</option>
+                </select> <br>
+                <input type="submit"  class="btn2"  value="submit" class="send">
+             </form>
+            </div>
+            <p class="end">Thank you!</p>
+        </div>
+        <footer>Copyright &copy; GYMFittness.com| All rights reserved</footer>
 
-    </div>
-    <div class="row">
-      <button class="button">AC</button>
-      <button class="button">Del</button>
-      <button class="button">M+</button>
-      <button class="button">M-</button>
-    </div>
-    <div class="row">
-      <button class="button">7</button>
-      <button class="button">8</button>
-      <button class="button">9</button>
-      <button class="button">*</button>
-    </div>
-    <div class="row">
-      <button class="button">4</button>
-      <button class="button">5</button>
-      <button class="button">6</button>
-      <button class="button">/</button>
-    </div>
-    <div class="row">
-      <button class="button">1</button>
-      <button class="button">2</button>
-      <button class="button">3</button>
-      <button class="button">+</button>
-    </div>
-    <div class="row">
-      <button class="button">0</button>
-      <button class="button">.</button>
-      <button class="button">=</button>
-      <button class="button">-</button>
-    </div>
-  </div>
 </div>
-
-  <script src="script.js"></script>
-
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="script .js" theme="dark" position="bottom-right"></script>
+    
 </body>
 
 </html>
